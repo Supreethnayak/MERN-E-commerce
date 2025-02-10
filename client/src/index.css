@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+.btn-primary {
+  background-color: #372dd0 !important;
+  border-color: #372dd0 !important;
+}
+
+.btn-outline-primary,
+.btn-info {
+  color: #372dd0 !important;
+  border-color: #372dd0 !important;
+  background-color: white !important;
+}
+
+.btn-outline-primary:hover,
+.btn-info:hover {
+  background-color: white !important;
+  font-weight: 500 !important;
+}
+
+.btn-success {
+  background-color: #372dd0 !important;
+  color: white !important;
+  border-color: #372dd0 !important;
+}
+
+.btn-success:hover {
+  background-color: white !important;
+  font-weight: 500 !important;
+  color: #372dd0 !important;
+}
+
+/* //navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+  background-color: white !important;
+}
+
+.nav-link {
+  color: black !important;
+  font-weight: 300 !important;
+}
+
+.navbar .nav-link:hover {
+  color: gray !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.search-form button {
+  border: 1px solid black;
+  background-color: #000000;
+  border-radius: 8px;
+  color: white;
+}
+
+.search-form button:hover {
+  border: 1px solid black;
+  background-color: #333333;
+  color: white;
+}
+
+.search-form button:focus,
+.search-form button:active {
+  background-color: #333333 !important;
+  color: white !important;
+  box-shadow: none !important;
+  border-color: #333333 !important;
+}
+
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
